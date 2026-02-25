@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="cele4.css">
+</head>
+
+<body>
+    <h1>Let's celebrate your birthday!</h1>
+    <p> Click the button to play a birthday song</p><br><br>
+    <button onclick="playSound()"> Click Here !</button>
+    <audio id="birthdaysong" controls>
+        <source src="birthday.mpeg" type="audio/mpeg">
+    </audio>
+<div class=" bolloon-container">
+    <div class="bolloon"></div>
+    <div class="bolloon"></div>
+    <div class="bolloon"></div>
+    <div class="bolloon"></div>
+    <div class="bolloon"></div>
+    <div class="bolloon"></div>
+    <div class="bolloon"></div>
+    <div class="bolloon"></div>
+    <div class="bolloon"></div>
+</div>
+
+
+<a href="cele5.html" >
+    <button class="next"> next</button>
+</a>
+    <script>
+        function playSound() {
+            var audio = document.getElementById("birthdaysong");
+            audio.play();
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(135deg,#cb0be0); */
+    background: linear-gradient(to right,pink,purple);
+    
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+h5{
+    font-size: 20px;
+    color: white;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    animation: updown 2s infinite alternate;
+}
+
+@keyframes updown {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-20px); }
+}
+h3{
+     font-size: 30px;
+    color: white;
+}
+p
+{ font-size: 20px;
+    color: white;
+}
+button{
+    padding: 10px 20px;
+    font-size: 20px;
+    color: white;
+    background-color: purple;
+    border:none;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
