@@ -1,11 +1,11 @@
-## myproject
+## Myproject
 This is a simple biirthday wish project that shows a birthday greeting  Message with design and animation.
 
 
-## project DEscription
+## Project Description
 This project display a birthday greeting message with a simple design and selebration theme. it is created for pratice and learning purposed.
 
-## TEchnologies Used
+## Technologies Used
 HTML
 CSS
 javscript
